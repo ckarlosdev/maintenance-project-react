@@ -1,0 +1,25 @@
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app-container {
+  max-width: 400px; /* o 360px para estilo más compacto */
+  width: 100%;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 250px; /* o el tamaño máximo que quieras */
+  margin: 1rem auto;
+  display: block;
+}
+
+.custom-large-button {
+  /* Aumenta el padding para hacer el botón más alto */
+  padding: 1.5rem 3rem; 
+  
+  /* Aumenta el tamaño de la fuente */
+  font-size: 1.5rem; 
+}

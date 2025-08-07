@@ -1,0 +1,53 @@
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app-container {
+  max-width: 400px; /* o 360px para estilo más compacto */
+  width: 100%;
+}
+
+.rows-section {
+  width: 100%;
+  max-width: 250px; /* o el tamaño máximo que quieras */
+  margin: 1rem auto;
+  display: block;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+}
+
+.app-container {
+  padding-top: 60px; /* Altura de la barra superior + espacio */
+  padding-bottom: 70px; /* Altura de la barra inferior + espacio */
+}
+
+/* Centrar el título dentro de la barra superior */
+.title {
+  text-align: center;
+}

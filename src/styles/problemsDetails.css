@@ -1,0 +1,21 @@
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app-container {
+  max-width: 400px; /* o 360px para estilo más compacto */
+  width: 100%;
+}
+
+.rows-section {
+  width: 100%;
+  max-width: 250px; /* o el tamaño máximo que quieras */
+  margin: 1rem auto;
+  display: block;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
