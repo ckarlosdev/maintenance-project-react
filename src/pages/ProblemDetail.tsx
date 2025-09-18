@@ -278,7 +278,7 @@ function ProblemDetail({}: Props) {
           <span style={{ fontWeight: "bold" }}>{selectedFlowForModal}</span>
           "?
           <Form.Group controlId="formUserSelect" className="mt-3">
-            <Form.Label>Seleccionar Usuario</Form.Label>
+            <Form.Label>Select user</Form.Label>
             <Form.Select
               value={selectedUser}
               onChange={(e) => setSelectedUser(e.target.value)}

@@ -4,11 +4,18 @@ import Problems from "./Problems";
 import ProblemDetail from "./ProblemDetail";
 import Records from "./Records";
 
-const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/problems/:flow", element: <Problems /> },
-  { path: "/problem/:id/:flow", element: <ProblemDetail /> },
-  { path: "/records", element: <Records /> },
-]);
+const basename = "/maintenance-project-react";
+
+const router = createBrowserRouter(
+  [
+    { path: "/", element: <Home /> },
+    { path: "/problems/:flow", element: <Problems /> },
+    { path: "/problem/:id/:flow", element: <ProblemDetail /> },
+    { path: "/records", element: <Records /> },
+  ],
+  {
+    basename: basename, // Pasa el basename como una opción de configuración
+  }
+);
 
 export default router;
